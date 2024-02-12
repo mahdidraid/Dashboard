@@ -62,7 +62,9 @@ export default function Singin() {
             </div>
             <button type="submit" onClick={submit}>Sign in</button>
 
-            <button value = "Sign up" type="submit"><Link to="/singup">Sign up</Link></button>
+            <button type="submit">
+                <Link to="/singup" className="signup-btn">Sign up</Link>
+            </button> 
           </div>
           <p>Or, Sign up with</p>
           <div className="social">

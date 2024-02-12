@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/home.css'; // Assuming you have a CSS file for styling
-
+import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div>
@@ -9,7 +9,8 @@ export default function Home() {
         <div className="container">
           <div className="main-nav">
             <a href="#" className="logo">Logo</a>
-            <a href="singin" className="sing-btn-header">Sign in</a>
+            <Link to = "/singup" className='sing-btn-header'>Sing up</Link>
+
           </div>
         </div>
       </header>
@@ -22,8 +23,8 @@ export default function Home() {
             <h2 className="info">ping pong <span>Game</span></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quidem magnam vitae placeat animi, maxime atque autem dolor laborum suscipit doloribus, iusto asperiores debitis sunt expedita nostrum obcaecati ab quia?</p>
             <div className="buttons">
-              <a href="#" className="info-btn">More Info</a>
-              <a href="#" className="info-btn">Start game</a>
+              <Link to = "/Info" className='info-btn'>More Info</Link>
+              <Link to = "/singin" className='info-btn'>Start game</Link>
             </div>
           </div>
           <div className="imge">

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+
+    --main-color:#5AE4A7;
+    --Second-coloer:#E3F9EE;
+    --third-colore:#1C2E35;
+    
+    --main-transition:0.3s;
+}
+
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+ 
+}
+body {
+    background-color: var(--Second-coloer);
+}
+.Setting{
+    display: flex;
+    height: 100vh;
+}
+
+
+.Setting .box-1
+{
+    width: 30%;
+    height: fit-content;
+    padding: 30px 0;
+    margin: 30px ;
+    background-color: var(--third-colore);
+    border-radius: 30px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.Setting .box-1 h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.Setting .box-1
+{
+    text-align: center;
+    /* align-self: center; */
+}
+.Setting .box-1 img{
+   
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    position: relative;
+   
+
+}
+.Setting .box-1  span
+{
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    
+    transform: translateX(-50%);
+}
+.Setting .box-1  span i.fa-trash {
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+.Setting .box-1 .btn button{
+    width: 150px;
+    height: 30px;
+    background-color: var(--main-color);
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.Setting .box-1 .phar{
+   width: 200px;
+   height: 100px;
+   border-radius: 10px;
+   margin: 0 auto;
+  
+   background-color: var(--Second-coloer);
+   
+}
+.Setting .box-1 .phar p {
+    text-align: center;
+    
+    line-height: 30px;
+    
+}
+
+.Setting .box-2
+{
+    width: 50%;
+    max-width: 50%;
+    margin: 30px ;
+
+
+}
+
+.Setting .box-2 {
+    
+    background-color: var(--third-colore);
+    border-radius: 30px;
+    padding: 20px 20px;
+}
+
+
+.Setting .box-2  h2{
+    color: #5AE4A7;
+    font-size: 30px; 
+    margin-bottom: 20px;
+
+}
+
+.Setting .box-2 .info {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Setting .box-2 .info  div{
+    width: calc(50% - 10px);
+}
+.Setting .box-2 .info  div label{ 
+    color: #fff;
+    display: block;
+    margin-bottom: 15px;
+}
+Setting .box-2 .info > div {
+   
+}
+
+.Setting .box-2 .info input {
+    width: 100%;
+    border: none;
+    height: 30px;
+  
+}
